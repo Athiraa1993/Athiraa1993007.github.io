@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+     width: 100%;
+     height: 500%;
+     
+}
+/*login form*/
+.login{
+    float:center;
+    margin-top:5%;
+    background-color:rgb(170, 189, 133);
+    padding: 20px;
+    height: 500px;
+    width: 400px;
+    margin-left: 35%;
+}
+.login h3{
+    text-align: center;
+}
+.login input{
+    height: 2.3em;
+}
+#butt{
+    width: 100%;
+    height: 3em;
+    background-color:dodgerblue ;
+    border: dodgerblue;
+    color: ghostwhite;
+}
+#first{
+width:80%; 
+margin-left: 35px; 
+text-align: center; 
+}
+#second{
+    width:80%; 
+    margin-left: 35px; 
+    text-align: center; 
+ }
+  #email{
+ width:80%; 
+ margin-left: 35px; 
+  text-align: center; 
+        }
+ #pwd{
+     width:80%; 
+     margin-left: 35px; 
+    text-align: center; 
+            }
+ #confrm{
+     width:80%; 
+    margin-left: 35px; 
+     text-align: center; 
+     }
+ #mobile{
+    width:80%; 
+     margin-left: 35px; 
+   text-align: center; 
+        }
+
+/* pbox*/
+.col-lg-11{
+
+    margin-left:7%;
+   
+    margin-top: 20px;
+    }
+    .p-box{
+        border:2px solid whitesmoke;
+        width: 21%;
+        float: left;
+        margin-left: 20px;
+        height: 13em;
+        padding: 5px; 
+        background-color: #ccc;
+        
+       
+    }
+    .p-box h6{
+        text-align: center;
+        color: rgb(2, 43, 16);
+    }
+    .p-box p{
+        line-height: 1.25em;
+        text-align: center;
+    }
+    .p-box a{
+        text-decoration: none;
+        color:rgb(44, 44, 175);
+    }
+    .mymargin{
+        margin-top: 20px;
+       ;
+    }
+   
+    
+    
