@@ -222,7 +222,7 @@
 
 <!-- SIGN UP FORM -->
 
-  <div class=col-lg-4>
+  <!-- <div class=col-lg-4>
  <div class="login">
   <form action="./index.html" onsubmit="return validate()">
 <div>
@@ -247,7 +247,7 @@
 </div>
 <br>
 <div>
-  <label>PASSWORD</label><br>
+  <label>PASSWORD</label><label for="error" id="error1"></label><br>
   <input type="text" placeholder="PASSWORD" id="pwd">
 </div>
 <br>
@@ -271,7 +271,7 @@
 <!-- <div>
    <a href="#">login </a>
 </div> -->
- </form>
+ <!-- </form>
 </div>
 <div class="col-lg-4">
 
@@ -282,14 +282,126 @@
 
 
 
- </div>
+ <!-- </div>
 
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
-<script src="./form.js"></script>
+</div> -->
+
+
+<div class=col-lg-4>
+  <div class="login">
+   <form action="./index.html" onsubmit="return validate()">
+ <div>
+   <h3>CREATE AN ACCOUNT</h3>
+ </div>
+ <br>
+ <div class="form">
+ 
+ <div>
+   <label>FIRST NAME</label><br>
+   <input type="text" placeholder="FIRST NAME" id="first" required>
+ </div>
+ <br>
+ <div>
+   <label>LAST NAME</label><br>
+   <input type="text" placeholder="LAST NAME" id="second" required>
+ </div>
+ <br>
+ 
+ <!-- <div>
+   <label>EMAILID</label><label for="error" id="error" ></label><br>
+   <input type="text" placeholder="EMAILID" id="email" required >
+ </div> -->
+ <br>
+ 
+ <!-- phone -->
+ <form action="/action_page.php">
+   <label for="phone">MOBILE:</label><br><br>
+   <input type="tel" id="mobile" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}||[0-9]{10}||[0-9]{3}.[0-9]{3}.[0-9]{4}" required><br>
+   <small>Format:XXXXXXXXXX,XXX-XXX-XXXX,XXX.XXX.XXXX</small><br><br>
+  
+ </form>
+ <div>
+   <label>EMAILID</label><label for="error" id="error" ></label><br>
+   <input type="text" placeholder="EMAILID" id="email" required >
+ </div>
+ 
+ 
+ 
+ <!-- phone -->
+ <!-- password -->
+ <div class="container">
+   <form action="">
+     <label for="psw">Password</label>
+     <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+     <label for="error" id="error1"></label>
+    
+   </form>
+ </div>
+ <!-- password -->
+ 
+ <!-- <div>
+   <label>PASSWORD</label><br>
+   <input type="text" placeholder="PASSWORD" id="pwd">
+ </div>
+ <br>
+ <div>
+   <label>CONFORM PASSWORD</label><br>
+   <input type="text" placeholder="CONFORM PASSWORD" id="confrm" >
+ </div>
+ <br> -->
+ 
+ 
+ 
+ <!-- email -->
+ 
+ <!-- email -->
+ 
+ <!-- <div>
+   <label>MOBILE NO</label><br><br>
+   <input type="password" placeholder="MOBILE NO" id="mobile" >
+ </div>
+ </div> -->
+ <br>
+ <br>
+ <div >
+  <button id="butt"> CREATE ACCOUNT</button>
+ </div>
+ <br>
+ 
+ <!-- <div>
+    <a href="#">login </a>
+ </div> -->
+  </form>
+ </div>
+ <div class="col-lg-4">
+ 
+ </div>
+ <!-- form ends here -->
+ 
+ 
+ 
+ 
+ 
+  </div>
+ 
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <script src="./form.js"></script>
+ </body>
+ </html>
+
+
+
+
+<!-- <script src="./form.js"></script>
 </body>
-</html>
+</html>  -->
